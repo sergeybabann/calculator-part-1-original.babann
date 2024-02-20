@@ -1,0 +1,11 @@
+:root {
+  /*----- colors -----*/
+  --primary: #00b0d7;
+  --accent: #ff6060;
+  --light: #fff;
+  --dark: #001b2f;
+  --display_light: #fafafa;
+  --display_dark: #00223a;
+  --actions_light: #e9f6ff;
+  --actions_dark: #001b2f;
+}
