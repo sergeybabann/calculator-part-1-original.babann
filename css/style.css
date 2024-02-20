@@ -38,5 +38,12 @@ body {
 }
 
 .calculator__actions {
+  border-radius: 20px;
+  /* padding: 16px; */
   background-color: var(--actions_light);
+}
+
+.calculator__row {
+}
+.calculator__col {
 }

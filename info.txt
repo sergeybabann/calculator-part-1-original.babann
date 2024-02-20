@@ -2,4 +2,4 @@ video url:
 
 https://www.youtube.com/watch?v=1JIhTABjN8A
 
-video stop: 28.05
+video stop: 33.55
