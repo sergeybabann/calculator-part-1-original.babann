@@ -5,22 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Калькулятор</title>
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/vars.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
 </head>
 
 <body>
 
+    <!----- CALCULATOR ----->
     <div class="calculator">
         <div class="calculator__display">
             <div class="calculator__history">
                 <span>50</span>
                 <strong>+</strong>
                 <span>50</span>
-                <div class="calculator__total">100</div><!--calculator__total-->
             </div><!--calculator__history-->
+            <div class="calculator__total">100</div><!--calculator__total-->
         </div><!--calculator__display-->
+
 
         <!----- CALCULATOR__ACTIONS ----->
         <div class="calculator__actions">
@@ -29,15 +31,16 @@
                     <img src="images/C.svg">
                 </div>
                 <div class="calculator__col">
-                    <img src="images/%.svg">
+                    <img src="images/interest.svg">
                 </div>
                 <div class="calculator__col">
-                    <img src="images/⌫.svg">
+                    <img src="images/delete.svg" alt="">
+                    <!--&#10060;-->
                 </div>
                 <div class="calculator__col">
                     <img src="images/÷.svg">
                 </div>
-            </div>
+            </div><!--row-->
             <div class="calculator__row">
                 <div class="calculator__col">
                     <img src="images/7.svg">
@@ -51,7 +54,7 @@
                 <div class="calculator__col">
                     <img src="images/×.svg">
                 </div>
-            </div>
+            </div><!--row-->
             <div class="calculator__row">
                 <div class="calculator__col">
                     <img src="images/4.svg">
@@ -65,7 +68,7 @@
                 <div class="calculator__col">
                     <img src="images/-.svg">
                 </div>
-            </div>
+            </div><!--row-->
             <div class="calculator__row">
                 <div class="calculator__col">
                     <img src="images/1.svg">
@@ -79,7 +82,7 @@
                 <div class="calculator__col">
                     <img src="images/+.svg">
                 </div>
-            </div>
+            </div><!--row-->
             <div class="calculator__row">
                 <div class="calculator__col">
                     <img src="images/dot.svg">
@@ -93,7 +96,7 @@
                 <div class="calculator__col">
                     <img src="images/=.svg">
                 </div>
-            </div>
+            </div><!--row-->
         </div><!--calculator__actions-->
     </div><!--calculator-->
     <script src="js/index.js"></script>
