@@ -62,6 +62,10 @@ body {
   cursor: pointer;
 }
 
+.calculator__col img {
+  pointer-events: none; /*-- блокировка отслеживания событий(кликов в том числе) --*/
+}
+
 .calculator__col_reset {
   color: var(--accent);
 }

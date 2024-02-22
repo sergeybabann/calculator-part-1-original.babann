@@ -27,75 +27,39 @@
         <!----- CALCULATOR__ACTIONS ----->
         <div class="calculator__actions">
             <div class="calculator__row">
-                <div class="calculator__col calculator__col_reset">
-                    <img src="images/C.svg">
-                </div>
-                <div class="calculator__col calculator__col_action">
-                    <img src="images/interest.svg">
-                </div>
-                <div class="calculator__col calculator__col_action">
-                    <img src="images/delete.svg" alt="">
+                <div class="calculator__col calculator__col_reset" data-type="clear">C</div>
+                <div class="calculator__col calculator__col_action" data-type="percent">%</div>
+                <div class="calculator__col calculator__col_action" data-type="delete">
+                    <img class="calculator__col" src="images/delete.svg">
                     <!--&#10060;-->
                 </div>
-                <div class="calculator__col calculator__col_action">
-                    <img src="images/÷.svg">
-                </div>
+                <div class="calculator__col calculator__col_action" data-type="/">&divide;</div>
             </div><!--row-->
             <div class="calculator__row">
-                <div class="calculator__col">
-                    7
-                </div>
-                <div class="calculator__col">
-                    8
-                </div>
-                <div class="calculator__col">
-                    9
-                </div>
-                <div class="calculator__col calculator__col_action">
-                    <img src="images/×.svg">
-                </div>
+                <div class="calculator__col" data-type="7">7</div>
+                <div class="calculator__col" data-type="8">8</div>
+                <div class="calculator__col" data-type="9">9</div>
+                <div class="calculator__col calculator__col_action" data-type="*">&times;</div>
             </div><!--row-->
             <div class="calculator__row">
-                <div class="calculator__col">
-                    4
-                </div>
-                <div class="calculator__col">
-                    5
-                </div>
-                <div class="calculator__col">
-                    6
-                </div>
-                <div class="calculator__col calculator__col_action">
-                    <img src="images/-.svg">
-                </div>
+                <div class="calculator__col" data-type="4">4</div>
+                <div class="calculator__col" data-type="5">5</div>
+                <div class="calculator__col" data-type="6">6</div>
+                <div class="calculator__col calculator__col_action" data-type="-">&minus;</div>
             </div><!--row-->
             <div class="calculator__row">
-                <div class="calculator__col">
-                    1
-                </div>
-                <div class="calculator__col">
-                    2
-                </div>
-                <div class="calculator__col">
-                    3
-                </div>
-                <div class="calculator__col calculator__col_action">
-                    <img src="images/+.svg">
-                </div>
+                <div class="calculator__col" data-type="1">1</div>
+                <div class="calculator__col" data-type="2">2</div>
+                <div class="calculator__col" data-type="3">3</div>
+                <div class="calculator__col calculator__col_action" data-type="+">&plus;</div>
             </div><!--row-->
             <div class="calculator__row">
-                <div class="calculator__col">
-                    .
+                <div class="calculator__col" data-type="float">.</div>
+                <div class="calculator__col" data-type="0">0</div>
+                <div class="calculator__col calculator__col_action" data-type="history">
+                    <img class="calculator__col" src="images/history.svg">
                 </div>
-                <div class="calculator__col">
-                    0
-                </div>
-                <div class="calculator__col">
-                    <img src="images/history.svg">
-                </div>
-                <div class="calculator__col calculator__col_action">
-                    <img src="images/=.svg">
-                </div>
+                <div class="calculator__col calculator__col_action" data-type="=">=</div>
             </div><!--row-->
         </div><!--calculator__actions-->
     </div><!--calculator-->
