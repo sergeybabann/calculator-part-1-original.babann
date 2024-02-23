@@ -28,6 +28,7 @@ body {
 
 .calculator__history {
   font-size: 24px;
+  height: 33px;
 }
 
 .calculator__history strong {
@@ -38,6 +39,7 @@ body {
 .calculator__total {
   font-size: 32px;
   font-weight: 600;
+  height: 42px;
 }
 
 .calculator__actions {
